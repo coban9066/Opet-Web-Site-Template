@@ -1,0 +1,18 @@
+#map {
+    height: 46.875vw;
+    width: 100%;
+}
+.footer img {
+    position: fixed;
+    height: 10vw;
+    width: 100vw;
+    top: 43.5vw;
+}
+@media (max-width: 1024px){
+    .footer img {
+        opacity: 0;
+    }
+    #map {
+        height: 250vw;
+    }
+}
